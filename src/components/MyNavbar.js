@@ -22,10 +22,8 @@ export class MyNavbar extends Component {
                 <div className="m-3">
                 <Link to="/science">science</Link>
                 </div>
-                <div>
                 <Link to="/sports">sports</Link>
                 </div>
-                <div>
                 <Link to="/fashion">fashion</Link>
                 </div>
                 

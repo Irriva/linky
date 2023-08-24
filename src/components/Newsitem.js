@@ -28,7 +28,7 @@ export class Newsitem extends Component {
             <Card.Title>{title}</Card.Title>
             <Card.Text>{cdesc}</Card.Text>
             <a href={articleUrl}>
-              <Button className="btn-success btn-sm">read more</Button>
+              <Button className="btn-success btn-sm">read more </Button>
             </a>
           </Card.Body>
         </Card>
