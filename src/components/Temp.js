@@ -15,7 +15,7 @@ export class Temp extends Component {
   async componentDidMount() {
     let category = "all";
     category = this.props.category;
-    let url = "https://inshorts.me/news/topics/" + category + "?offset=0&limit=10";
+    let url = "https://inshorts.me/news/topics/" + category + "?offset=0&limit=100";
     let data = await fetch(url);
     let fetchedData = await data.json();
     this.setState({ articles: fetchedData.data.articles });

@@ -14,7 +14,7 @@ export class Sports extends Component {
   }
   async componentDidMount() {
     let category = "all";
-    let url = "https://inshorts.me/news/topics/sports?offset=0&limit=10";
+    let url = "https://inshorts.me/news/topics/sports?offset=0&limit=100";
     let data = await fetch(url);
     let fetchedData = await data.json();
     this.setState({ articles: fetchedData.data.articles });
