@@ -6,6 +6,8 @@ import Newsitem from './components/Newsitem'
 import { Route,Routes } from 'react-router-dom';
 import Stocks from './components/stocks';
 import Sports from './components/sports'
+import Science from './components/science'
+import Bussines from './components/Bussiness'
 
 
 export default class App extends Component {
@@ -17,9 +19,9 @@ export default class App extends Component {
         <Temp category="Trending"></Temp> */}
         <Routes>
       
-      <Route path="/"  element={<Stocks/>} />
-      <Route path="/trending"  element={<Temp category="trending"/>}/>
-      <Route path="/science"  element={<Temp category="science"/>}/>
+      <Route path="/"  element={<Temp/>} />
+      <Route path="/Bussines"  element={<Bussines/>}/>
+      <Route path="/science"  element={<Science/>}/>
       <Route path="/sports"  element={<Sports/>}/>
       <Route path="/fashion"  element={<Temp category="fashion"/>}/>
       </Routes>
