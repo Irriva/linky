@@ -12,12 +12,12 @@ export class MyNavbar extends Component {
       <div>
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="/">Newsily</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
               <div className="m-3">
-                <Link to="/Bussiness">Bussines</Link>
+                <Link to="/Bussiness">Bussiness</Link>
                 </div>
                 <div className="m-3">
                 <Link to="/Politics">Politics</Link>
@@ -30,11 +30,7 @@ export class MyNavbar extends Component {
                 </div>
                 <div className="m-3">
                 <Link to="/fashion">fashion</Link>
-                </div>
-                <div className="m-3">
-                <Link to="/Politics">Politics</Link>
-                </div>
-                
+                </div>                
               </Nav>
             </Navbar.Collapse>
           </Container>
