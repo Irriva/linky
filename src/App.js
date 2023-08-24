@@ -7,7 +7,8 @@ import { Route,Routes } from 'react-router-dom';
 import Stocks from './components/stocks';
 import Sports from './components/sports'
 import Science from './components/science'
-import Bussines from './components/Bussiness'
+import Bussiness from './components/Bussiness'
+import Politics from './components/Politics'
 
 
 export default class App extends Component {
@@ -20,10 +21,11 @@ export default class App extends Component {
         <Routes>
       
       <Route path="/"  element={<Temp/>} />
-      <Route path="/Bussines"  element={<Bussines/>}/>
+      <Route path="/Bussiness"  element={<Bussiness/>}/>
       <Route path="/science"  element={<Science/>}/>
       <Route path="/sports"  element={<Sports/>}/>
       <Route path="/fashion"  element={<Temp category="fashion"/>}/>
+      <Route path="/Politics"  element={<Politics/>}/>
       </Routes>
       </div>
     )

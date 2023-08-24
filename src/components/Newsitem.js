@@ -20,7 +20,7 @@ export class Newsitem extends Component {
       <div>
         <Card className="m-3">
           <Card.Img
-            style={{ width: 286, height: 158 }}
+            style={{ width:250, height: 158 }}
             variant="top"
             src={curl}
           />

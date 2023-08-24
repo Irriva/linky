@@ -17,7 +17,10 @@ export class MyNavbar extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
               <div className="m-3">
-                <Link to="/trending">Trending</Link>
+                <Link to="/Bussiness">Bussiness</Link>
+                </div>
+                <div className="m-3">
+                <Link to="/Politics">Politics</Link>
                 </div>
                 <div className="m-3">
                 <Link to="/science">science</Link>
@@ -27,8 +30,7 @@ export class MyNavbar extends Component {
                 </div>
                 <div className="m-3">
                 <Link to="/fashion">fashion</Link>
-                </div>
-                
+                </div>                
               </Nav>
             </Navbar.Collapse>
           </Container>
