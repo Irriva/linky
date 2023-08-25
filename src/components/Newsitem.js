@@ -21,8 +21,9 @@ export class Newsitem extends Component {
         
         <Card className="m-3 d-flex justify-content-center">
           <Card.Img
-             style={{ width:312, height: 158 }}
+             //style={{ width:312, height: 158 }}
             variant="top"
+            className=".img-fluid. max-width: 100%;"
             src={curl}
           />
           <Card.Body>
