@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './card.css';
+
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
@@ -18,25 +18,21 @@ export class Newsitem extends Component {
 
     return (
       <div>
-        
-        <Card className="m-3 d-flex justify-content-center">
+        <Card className="m-3 content-around">
           <Card.Img
-             style={{ width:312, height: 158 }}
+            style={{ width:250, height: 158 }}
             variant="top"
             src={curl}
           />
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text>{cdesc}</Card.Text>
-            <div className="d-flex justify-content-end">
             <a href={articleUrl}>
               <Button className="btn-success btn-sm mx-2">read more </Button>
             </a>
-            </div>
           </Card.Body>
         </Card>
-        
-        </div>
+      </div>
     );
   }
 }

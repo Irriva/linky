@@ -30,7 +30,9 @@ export class Bussiness extends Component {
         {this.state.articles &&
           this.state.articles.map((element) => {
             return (
+
               <div className="col">
+                
                 <Newsitem
                   title={element.title}
                   desc={element.content}
