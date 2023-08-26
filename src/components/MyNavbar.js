@@ -35,6 +35,7 @@ export class MyNavbar extends Component {
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        
       </div>
     );
   }

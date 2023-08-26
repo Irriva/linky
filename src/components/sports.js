@@ -14,7 +14,7 @@ export class Sports extends Component {
   }
   async componentDidMount() {
     let category = "all";
-    let url = "https://inshorts.me/news/topics/sports?offset=0&limit=100";
+    let url = "https://inshorts.me/news/topics/sports?offset=0&limit=50";
     let data = await fetch(url);
     let fetchedData = await data.json();
     this.setState({ articles: fetchedData.data.articles });
@@ -29,7 +29,7 @@ export class Sports extends Component {
         {this.state.articles &&
           this.state.articles.map((element) => {
             return (
-              <div className="col-sm-4 col-xs-3">
+              <div className="col-xs-12 col-sm-4 ">
                 <Newsitem
                   title={element.title}
                   desc={element.content}
