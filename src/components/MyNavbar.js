@@ -12,13 +12,13 @@ export class MyNavbar extends Component {
       <div>
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-          
+          <div className="m-3">
+                <Link to="/Bussiness" className="nav-item logo">Newsily</Link>
+                </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-              <div className="m-3 nav-item">
-                <Navbar.Brand href="/">Newsily</Navbar.Brand>
-                </div>
+              
               
               <div className="m-3">
                 <Link to="/Bussiness" className="nav-item">Bussiness</Link>
