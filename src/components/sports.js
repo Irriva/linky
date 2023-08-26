@@ -29,7 +29,7 @@ export class Sports extends Component {
         {this.state.articles &&
           this.state.articles.map((element) => {
             return (
-              <div className="col-sm-4">
+              <div className="col-sm-4 col-xs-3">
                 <Newsitem
                   title={element.title}
                   desc={element.content}
