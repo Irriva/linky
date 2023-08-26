@@ -20,7 +20,7 @@ export default class App extends Component {
         <Temp category="Trending"></Temp> */}
         <Routes>
       
-      <Route path="/"  element={<Temp/>} />
+      <Route path="/"  element={<Bussiness/>} />
       <Route path="/Bussiness"  element={<Bussiness/>}/>
       <Route path="/science"  element={<Science/>}/>
       <Route path="/sports"  element={<Sports/>}/>
