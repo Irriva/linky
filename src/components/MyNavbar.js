@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import {Link} from 'react-router-dom';
-
+import "./card.css";
 import React, { Component } from "react";
 
 export class MyNavbar extends Component {
@@ -12,24 +12,24 @@ export class MyNavbar extends Component {
       <div>
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand href="/">newsily</Navbar.Brand>
+            <Navbar.Brand href="/">Newsily</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
               <div className="m-3">
-                <Link to="/Bussiness">Bussiness</Link>
+                <Link to="/Bussiness" className="nav-item">Bussiness</Link>
+                </div>
+                {/* <div className="m-3 ">
+                <Link to="/Politics"className="nav-item">Politics</Link>
+                </div> */}
+                <div className="m-3 ">
+                <Link to="/science"className="nav-item">science</Link>
+                </div>
+                <div className="m-3 ">
+                <Link to="/sports"className="nav-item">sports</Link>
                 </div>
                 <div className="m-3">
-                <Link to="/Politics">Politics</Link>
-                </div>
-                <div className="m-3">
-                <Link to="/science">science</Link>
-                </div>
-                <div className="m-3">
-                <Link to="/sports">sports</Link>
-                </div>
-                <div className="m-3">
-                <Link to="/fashion">fashion</Link>
+                <Link to="/fashion"className="nav-item">fashion</Link>
                 </div>                
               </Nav>
             </Navbar.Collapse>
