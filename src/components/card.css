@@ -1,7 +1,9 @@
 /* .navbar {
   background: #000000
 } */
-
+.logo{
+  text: size 5px;
+}
 .nav-item::after {
   content: '';
   display: block;
